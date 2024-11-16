@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contact</title>
     <link rel="icon" href="./DALL·E-2024-10-19-00.01.09-A-minimalist-logo-for-a-medieval-themed-game-website.ico">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./styleHome.css">
+    <link rel="stylesheet" href="./styleContact.css">
 </head>
 <header>
     <nav> 
@@ -17,7 +17,7 @@
             <div class="menu">
             <ul>
                 <li>
-                    <a href="#" data-text="Store">Store</a>
+                    <a href="./productos.html" data-text="Store">Store</a>
                 </li>
                 <li>
                     <a href="#" data-text="Blog">Blog</a>
@@ -35,15 +35,7 @@
                 <ion-icon name="search-outline" class="search-icon"></ion-icon>
             </div>
             <div class="account">
-                <ion-icon name="person"><ul>
-                    <h1>Login in your account</h1>
-                    <li>
-                        <input type="text" placeholder="mail">
-                    </li>
-                    <li>
-                        <input type="text" placeholder="password">
-                    </li>
-                </ul></ion-icon>
+                <a href="./registro.html"><ion-icon name="person"></ion-icon></a>
             </div>
             <div class="cart">
                 <ion-icon name="cart"></ion-icon>
@@ -51,28 +43,17 @@
         </div>
     </nav>
 </header>
-    <div>
-        <section>
-            <div class="contacto">
-                <form action="https://formspree.io/f/mvgoryzy" method="post">
-                <br>
-                <label for="nombre">Ingresa tu nombre</label>
-                <br>
-                <input type="text" name="nombre" id="nombre" required> 
-                <br>
-                <label for="email">Ingresa tu email</label>
-                <br>
-                <input type="email" name="email" id="email" required>
-                <br>
-                <label for="mensaje">Mensaje</label>
-                <br>
-                <textarea name="mensaje" id="mensaje" cols="12" rows="6" required></textarea>
-                <br>
-                <button type="submit">Enviar</button>
-                </form>
-            </div>
-        </section>
-    </div>
+    <section class="contact">
+        <div class="input-box">
+            <form action="https://formspree.io/f/mvgoryzy" method="post">
+            <h1>Contact us</h1>
+            <input type="text" name="nombre" id="nombre" required placeholder="Your full name"> 
+            <input type="email" name="email" id="email" required placeholder="Email">
+            <textarea name="mensaje" id="mensaje" cols="12" rows="6" required placeholder="Message"></textarea>
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>    
 <footer>
     <div class="texto-footer">
         <ul>
@@ -97,6 +78,7 @@
         <ul>
             <li><ion-icon name="call-outline"></ion-icon>(123) 456-7890</li>
             <li><ion-icon name="mail-outline"></ion-icon>info@ejemplo.com</li>
+            <a href="./contact.html"><li><ion-icon name="document-outline"></ion-icon>Contactanos!</li></a>
         </ul>
     </div>
 </footer>    

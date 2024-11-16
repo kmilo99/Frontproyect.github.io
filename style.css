@@ -150,7 +150,7 @@ footer{
     background-color: #ECDFCC;
 }
 
-.texto-footer a,.redes a{
+.texto-footer a,.redes a, .contacto a{
     text-decoration: none;
     color: inherit;
     justify-content: center;
