@@ -144,4 +144,8 @@
     opacity: 1;
     filter: contrast(120%);
 }
- 
+.mapa {
+    background-color: #3C3D37;
+    display: flex;
+    justify-content: center;
+}
